@@ -1,29 +1,74 @@
 *{
     margin: 0;
 }
+:root{
+    --color-pag:beige;
+}
 
-nav img{
+.encabezado img{
     width: 200px;
 }
-nav{
+.encabezado{
     display: flex;
     align-content: center;
     align-items: center;
     font-size: 20px;
 }
 header{
+    background-color: var(--color-pag);
     position: fixed;
     top: 0;
+    width: 100%;
+    border-bottom: 3px solid gray ;
+}
+
+.etapa-basica{
+    margin-top: 8%;
+    background-color: white;
+    position: sticky;
+    top: 18.5%;
+    width: 100%;
+    z-index: 2;
 }
 
 .etapa1{
+    background-color: var(--color-pag);
+    padding: 5% 10% 5% 10%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .etapa1 article{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
     width: 50%;
 }
 .etapa1 article figure img{
-    width: 80px;
+    width: 100%;
+}
+
+.etapa-avanzada{
+    background-color: white;
+    position: sticky;
+    top: 19%;
+    width: 100%;
+    z-index: 2;}
+
+.etapa2{
+    background-color: var(--color-pag);
+    padding: 5% 10% 5% 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.etapa2 article{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+}
+.etapa2 article figure img{
+    width: 100%;
 }

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+nav img{
+    width: 200px;
+}
+nav{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+header{
+    position: fixed;
+    top: 0;
+}
+
+.etapa1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.etapa1 article{
+    width: 50%;
+}
+.etapa1 article figure img{
+    width: 80px;
+}
